@@ -1,0 +1,462 @@
+/* ここから下に記載していく */
+
+
+/* .container { */
+    /* display: flex; */
+    /* font-size: 21px; */
+  /* } */
+
+
+  /* H2のフォントサイズ */
+
+
+  
+h2 {
+    display: block;
+    font-size: 24px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p{line-height: 1.75;}
+
+
+  .wrapper1 {
+    width: 1350px;
+    display: flex;
+    font-size: 21px;
+    padding:0 10rem 0 10rem;
+    height: 100px;
+    justify-content:space-between;
+
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: solid 1px #efefef;
+    /* margin: 0 96px; */
+    padding-left: 50px;
+    
+}
+
+.ul1 {
+    /* max-width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: auto; */
+    /* flex-shrink: 0; */
+}
+.ul1 li {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.ul1 li a {
+    font-size: 21px;
+    margin-left: 30px;
+}
+
+
+
+
+
+  .mainvisual {
+    width: 100%;
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  .mainvisual h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.mainvisual p {
+    font-size: 36px;
+    color: white;
+}
+
+
+
+    .yellow-text {
+        text-align: center;
+        color: #ffd61a;
+        font-size: 24px;
+       }
+
+
+
+    .about {
+        display: flex;
+      }
+
+
+
+      .yellow-text {color: yellow;
+    }
+
+
+      .wrapper2 {
+        text-align: center;
+        margin: 60px 0 40px;
+    }
+
+    .wrapper2 h3 {
+        font-weight: normal;
+        padding-bottom: 64px;
+        font-size: 18px;
+    }
+
+    .wrapper2 p{
+        padding-bottom: 40px;
+    }
+
+    /* コース書くよ */
+
+    .wrapper3 {
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    .wrapper3 h2 {
+        text-align: center;
+        font-size: 24px;
+
+       }
+
+       .wrapper3 p {
+        text-align: center;
+        line-height: 30px;
+    }
+
+.wrapper4container {background: #fafafa;
+    }
+
+.wrapper4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.wrapper4 p {font-size: 16px;
+   
+    }
+
+
+.wrapper4-1 {
+    margin-left:  50px;
+    margin-right: 200px;
+    font-size: 24px;
+}
+
+
+.wrapper4 img {
+    max-width: 50%;
+}
+
+.wrapper4-1 h3 {
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.wrapper4-1 P {font-size: 16px;
+    margin-bottom: 120px;
+   
+}
+
+.wrapper4-2 {
+    flex-direction: row-reverse;
+}
+
+.wrapper4, .wrapper4-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* なんでこれだけ画像サイズ指定して、3つ目は勝手になってたの？ */
+.wrapper4 img, .wrapper4-2 img {
+    max-width: 50%;
+}
+
+
+
+.wrapper5 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.wrapper5 h2 {
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.wrapper6 {
+    display: flex;
+        
+        width: 960px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+
+    
+
+.wrapper6 .newsbox img {
+    margin-bottom: 30px;
+    
+}
+
+.wrapper6 .newsbox p:first-of-type {
+    margin-bottom: 24px;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    height: 60px;
+    background-color: yellow;
+    color: white;
+    font-size: 18px;
+    margin: 54px auto 48px;
+}
+
+
+.access {
+    text-align: center;
+    background: #fafafa;
+}
+
+.wrapper7 {
+    padding-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+
+.wrapper7 h2 {
+    margin-bottom: 24px;
+}
+
+
+
+.map-iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+.wrapper8 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+.ul2 li {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ul2 li p:first-child {
+    flex: 0 0 auto;
+    min-width: 200px;
+}
+
+/* なにこれ */
+.ul2 li p:last-child {
+    flex: 1;
+}
+
+.wrapper9 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.wrapper9 p:first-of-type {
+    margin-bottom: 60px;
+}
+
+.wrapper9 p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+
+.form-container {
+    margin: 0 400px;
+}
+
+.form-row {
+    margin-bottom: 24px;
+}
+
+.form-row, .form-row2, .form-row3 {
+    display: flex;
+    align-items: center;
+}
+
+.form-row-container {
+    display: flex;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background: #707070;
+    color: white;
+    font-size: 18px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 140px;
+}
+
+.form-row label {
+    flex-shrink: 0;
+    width: 120px;
+    margin-right: 120px;
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 328px;
+    height: 36px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+}
+
+.form-row-reason {
+    display: flex;
+    align-items: center;
+}
+
+
+.form-row-reason p {
+    flex-shrink: 0;
+    width: 120px;
+    margin-right: 120px;
+    align-self: flex-start;
+    margin-top: 16px;
+}
+
+.form-row-reason .reason-options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.reason-option {
+    margin-bottom: 24px;
+}
+
+input[type="checkbox"] {
+    margin: 0 40px 0 0;
+    min-width: 24px;
+}
+
+.reason-option label {
+    flex-shrink: 0;
+}
+
+label {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.custom-checkbox:checked {
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+}
+
+.form-row-textarea {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.form-row-textarea label {
+    flex-shrink: 0;
+    width: 240px;
+}
+
+textarea {
+    width: 328px;
+    height: 108px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 298px;
+    height: 54px;
+    padding: 10px;
+    background: yellow;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+
+.selectbox-003 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+   
+}
+
+.selectbox-003::after {
+    position: absolute;
+    right: 15px;
+    width: 10px;
+    height: 7px;
+    background-color: ##bfbfbf;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+
+.selectbox-003 select {
+    appearance: none;
+    min-width: 230px;
+    height: 2.8em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1em;
+    cursor: pointer;
+}
